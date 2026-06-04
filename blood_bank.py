@@ -6,10 +6,10 @@ import hashlib
 # --- Database Connection ---
 def connect_db():
     return mysql.connector.connect(
-        host='localhost',
-        user='root',
-        password='6628',
-        database='admin'
+        host='YOUR HOST NAME HERE',
+        user='YOUR USERNAME HERE',
+        password='YOUR PASSWORD HERE',
+        database='YOUR DATABASE NAME HERE'
     )
 
 def hash_password(password):
